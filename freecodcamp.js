@@ -149,3 +149,37 @@ myStr = "Hello World"; // Change this line
 const lastName = "Lovelace";
 // Only change code below this line
 const thirdLetterOfLastName = lastName[2]; // Change this line
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "A " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "."; // Change this line
+// Only change code above this line
+
+// Only change code below this line
+const myArray = ["bread", 1];
+
+// Only change code below this line
+const myArray = [["White Sox", 45]];
+const myArray = [50, 60, 70];
+let myData = myArray[0];
+
+// Setup
+const myArray = [18, 64, 99];
+myArray[0] = 45
+// Only change code below this line
