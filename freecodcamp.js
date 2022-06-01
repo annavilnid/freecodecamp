@@ -183,3 +183,50 @@ let myData = myArray[0];
 const myArray = [18, 64, 99];
 myArray[0] = 45
 // Only change code below this line
+
+const myArray = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+  ];
+  
+  const myData = myArray[2][1];
+
+  // Setup
+const myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3]);
+// Only change code below this line
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+let removedFromMyArray = myArray.pop()
+// Only change code below this line
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+let removedFromMyArray = myArray.shift()
+// Only change code below this line
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+// Only change code below this line
+
+const myList = [["Chocolate Bar", 15], ["Tomato", 25], ["Meat", 2], ["Milk", 3], ["Bread", 1]];
+
+function reusableFunction() {
+    console.log("Hi World");
+  }
+  reusableFunction()
+
+  function functionWithArgs(arg1, arg2) {
+    console.log(arg1 + arg2);
+  }
+  functionWithArgs(3,4)
+
+  function timesFive(num) {
+    return num * 5;
+  }
+  timesFive(2)
