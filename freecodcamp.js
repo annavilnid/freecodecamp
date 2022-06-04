@@ -974,3 +974,14 @@ function countdown(n){
   }
 }
 // Only change code above this line
+
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum > endNum) {
+    return ([]);
+  } else {
+   const countArray = rangeOfNumbers(startNum, endNum-1);
+   countArray.push(endNum);
+   return countArray;
+ }
+};
+
