@@ -1164,3 +1164,11 @@ temp = thermos.temperature; // 26 in Celsius
   <script type="module" src="index.js"></script>
   </body>
 </html>
+
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+export { uppercaseString, lowercaseString };
