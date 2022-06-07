@@ -1180,3 +1180,6 @@ lowercaseString("WORLD!");
 // Only change code above this line
 stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
+export default function subtract(x, y) {
+  return x - y;
+}
