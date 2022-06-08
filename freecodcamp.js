@@ -1231,3 +1231,5 @@ let result = petRegex.test(petString);
 let myString = "freeCodeCamp";
 let fccRegex = /freeCodeCamp/i; // Change this line
 let result = fccRegex.test(myString);
+
+let a
